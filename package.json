@@ -1,0 +1,16 @@
+{
+  "name": "obsidian-copy-wikilink",
+  "version": "1.0.0",
+  "description": "Копирование ссылки [[...]] на любой файл из контекстного меню Obsidian",
+  "main": "main.js",
+  "scripts": {
+    "build": "esbuild src/main.ts --bundle --format=cjs --platform=browser --target=es2018 --external:obsidian --outfile=main.js",
+    "check": "tsc --noEmit"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "*",
+    "obsidian": "*",
+    "typescript": "*"
+  }
+}

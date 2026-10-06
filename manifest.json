@@ -1,0 +1,9 @@
+{
+  "id": "copy-wikilink",
+  "name": "Копировать ссылку на файл",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "Добавляет в контекстное меню файлов пункт «Скопировать ссылку», который копирует [[ссылку]] для вставки в другую заметку.",
+  "author": "Daniil Semizhonov",
+  "isDesktopOnly": false
+}
